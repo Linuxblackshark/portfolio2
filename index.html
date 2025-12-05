@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="c0mrade - Red Team Trainee, Cybersecurity Enthusiast, Full-Stack Developer">
+    <meta name="theme-color" content="#0a0e27">
+    <title>c0mrade | Cybersecurity & Full-Stack Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">c0mrade</span>
+                <span class="logo-dot"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="theme-toggle">
+                <input type="checkbox" id="theme-toggle" class="toggle-input">
+                <label for="theme-toggle" class="toggle-label">
+                    <span class="toggle-icon">🌙</span>
+                </label>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <!-- Neon Grid Background -->
+        <div class="hero-bg">
+            <svg class="grid-svg" viewBox="0 0 1000 1000" preserveAspectRatio="none">
+                <defs>
+                    <pattern id="neon-grid" x="50" y="50" width="100" height="100" patternUnits="userSpaceOnUse">
+                        <path d="M 100 0 L 0 0 0 100" fill="none" stroke="url(#grid-gradient)" stroke-width="0.5" opacity="0.2"/>
+                    </pattern>
+                    <linearGradient id="grid-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#00ffff;stop-opacity:0.5" />
+                        <stop offset="100%" style="stop-color:#ff00ff;stop-opacity:0.5" />
+                    </linearGradient>
+                </defs>
+                <rect width="1000" height="1000" fill="url(#neon-grid)"/>
+            </svg>
+            <div class="particles" id="particles"></div>
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+
+        <!-- Hero Content -->
+        <div class="hero-content">
+            <div class="hero-header">
+                <h1 class="hero-title">
+                    <span class="cyber-text" id="typewriter"></span>
+                </h1>
+                <p class="hero-subtitle">Red Team Trainee • Cybersecurity Enthusiast • Full-Stack Learner</p>
+                <div class="hero-divider"></div>
+                <p class="hero-description">Crafting security through code, exploring vulnerabilities, pushing digital boundaries</p>
+            </div>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">Explore My Work</a>
+                <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+            </div>
+        </div>
+
+        <!-- Floating Elements -->
+        <div class="floating-element float-1"></div>
+        <div class="floating-element float-2"></div>
+        <div class="floating-element float-3"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="section-header">
+            <h2 class="section-title">About Me</h2>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="about-container">
+            <div class="about-content glass-card">
+                <p class="about-text">
+                    Izzatbek, known online as <span class="highlight">c0mrade</span>, is a passionate cybersecurity learner and red team trainee with a drive to explore the digital frontier. As an aspiring full-stack developer, I blend security expertise with modern web development practices.
+                </p>
+                <p class="about-text">
+                    My journey spans from penetration testing laboratories to exploit development, always seeking to understand systems at their core. Proficient with industry-standard security tools, I combine technical skill with strategic thinking to identify and remediate vulnerabilities.
+                </p>
+                <p class="about-text">
+                    Currently deepening knowledge in frontend and backend development, Python scripting, Linux system administration, web security fundamentals, exploit development methodologies, IoT automation with ESP8266, and bug bounty hunting across multiple platforms.
+                </p>
+            </div>
+
+            <div class="about-stats">
+                <div class="stat-card neumorphic">
+                    <div class="stat-number">5+</div>
+                    <div class="stat-label">Security Tools</div>
+                </div>
+                <div class="stat-card neumorphic">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">CTF Challenges</div>
+                </div>
+                <div class="stat-card neumorphic">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Learning Curve</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="section-header">
+            <h2 class="section-title">Technical Arsenal</h2>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="skills-grid">
+            <!-- Frontend -->
+            <div class="skill-category">
+                <h3 class="category-title">Frontend</h3>
+                <div class="skill-badges">
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">HTML5</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">CSS3</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">JavaScript</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="skill-category">
+                <h3 class="category-title">Backend & Scripting</h3>
+                <div class="skill-badges">
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">Python</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">Flask</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">Node.js</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pentesting Tools -->
+            <div class="skill-category">
+                <h3 class="category-title">Penetration Testing</h3>
+                <div class="skill-badges">
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">Burp Suite</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">Nmap</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">SQLmap</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">Metasploit</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">ffuf</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Security Specializations -->
+            <div class="skill-category">
+                <h3 class="category-title">Security Specializations</h3>
+                <div class="skill-badges">
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">Social Engineering</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">Phishing Labs</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">Red Team Basics</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">Bug Bounty</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Systems & Tools -->
+            <div class="skill-category">
+                <h3 class="category-title">Systems & Infrastructure</h3>
+                <div class="skill-badges">
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">Linux</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">WSL</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">Network Fundamentals</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">OWASP ZAP</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Platforms & Learning -->
+            <div class="skill-category">
+                <h3 class="category-title">Learning Platforms</h3>
+                <div class="skill-badges">
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">TryHackMe</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">HackTheBox</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">CTF Competitions</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Specialties -->
+            <div class="skill-category">
+                <h3 class="category-title">Specialties</h3>
+                <div class="skill-badges">
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">ESP8266 Automation</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">Exploit Development</span>
+                    </div>
+                    <div class="skill-badge neon-badge">
+                        <span class="badge-text">Web Security</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="section-header">
+            <h2 class="section-title">Active Projects</h2>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card glass-card">
+                <div class="project-header">
+                    <div class="project-icon">🔐</div>
+                    <h3>Telegram Auth System</h3>
+                </div>
+                <p class="project-description">Custom Telegram authentication framework with bot integration and secure session management.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">Telegram API</span>
+                    <span class="tech-tag">Security</span>
+                </div>
+                <div class="project-footer">
+                    <a href="#" class="project-link">View Code →</a>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card glass-card">
+                <div class="project-header">
+                    <div class="project-icon">⚔️</div>
+                    <h3>Evilginx Lab</h3>
+                </div>
+                <p class="project-description">Advanced phishing framework testing laboratory for red team training and credential harvesting experiments.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Evilginx2</span>
+                    <span class="tech-tag">Social Engineering</span>
+                    <span class="tech-tag">Red Team</span>
+                </div>
+                <div class="project-footer">
+                    <a href="#" class="project-link">View Code →</a>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card glass-card">
+                <div class="project-header">
+                    <div class="project-icon">🔌</div>
+                    <h3>ESP8266 Relay Automation</h3>
+                </div>
+                <p class="project-description">IoT automation project controlling relay systems via ESP8266 microcontroller with remote command execution.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">ESP8266</span>
+                    <span class="tech-tag">Arduino</span>
+                    <span class="tech-tag">IoT</span>
+                </div>
+                <div class="project-footer">
+                    <a href="#" class="project-link">View Code →</a>
+                </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-card glass-card">
+                <div class="project-header">
+                    <div class="project-icon">🐛</div>
+                    <h3>Security Scanning Lab</h3>
+                </div>
+                <p class="project-description">Comprehensive vulnerability testing including XSS, SQLi, Open Bug Bounty submissions, and automated scanning workflows.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">Burp Suite</span>
+                    <span class="tech-tag">SQLmap</span>
+                    <span class="tech-tag">Bug Bounty</span>
+                </div>
+                <div class="project-footer">
+                    <a href="#" class="project-link">View Code →</a>
+                </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-card glass-card">
+                <div class="project-header">
+                    <div class="project-icon">🏆</div>
+                    <h3>CTF Machine Solutions</h3>
+                </div>
+                <p class="project-description">Collection of TryHackMe and HackTheBox machine writeups with privilege escalation techniques and exploitation methods.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">TryHackMe</span>
+                    <span class="tech-tag">HackTheBox</span>
+                    <span class="tech-tag">Privilege Escalation</span>
+                </div>
+                <div class="project-footer">
+                    <a href="#" class="project-link">View Code →</a>
+                </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-card glass-card">
+                <div class="project-header">
+                    <div class="project-icon">🌐</div>
+                    <h3>Full-Stack Web Suite</h3>
+                </div>
+                <p class="project-description">Personal projects including advanced login systems, search bar integration, and custom web applications.</p>
+                <div class="project-tech">
+                    <span class="tech-tag">HTML/CSS/JS</span>
+                    <span class="tech-tag">Backend</span>
+                    <span class="tech-tag">Full-Stack</span>
+                </div>
+                <div class="project-footer">
+                    <a href="#" class="project-link">View Code →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-header">
+            <h2 class="section-title">Connect With Me</h2>
+            <div class="title-underline"></div>
+        </div>
+
+        <div class="contact-container">
+            <p class="contact-description">Ready to collaborate on security projects or discuss cybersecurity insights? Let's connect.</p>
+
+            <div class="contact-methods">
+                <a href="mailto:izzatbekabdulhayev64@gmail.com" class="contact-button glass-card">
+                    <span class="contact-icon">✉️</span>
+                    <span class="contact-text">Email</span>
+                </a>
+                <a href="https://t.me/c0mrade_c" class="contact-button glass-card">
+                    <span class="contact-icon">📱</span>
+                    <span class="contact-text">Telegram</span>
+                </a>
+                <a href="https://github.com/Linuxblackshark" class="contact-button glass-card">
+                    <span class="contact-icon">💻</span>
+                    <span class="contact-text">GitHub</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 c0mrade. Crafted with precision. All rights reserved.</p>
+        <p class="footer-subtitle">Security through curiosity. Power through knowledge.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
